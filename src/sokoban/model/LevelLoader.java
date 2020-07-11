@@ -68,16 +68,3 @@ public class LevelLoader {
         return new GameObjects(walls, boxes, storageLocations, player);
     }
 }
-
-
-//  int i = Model.BOARD_CELL_SIZE / 2;
-//        Set<Wall> walls = new HashSet<>();
-//        Set<Box> boxes = new HashSet<>();
-//        Player player = new Player(i * 10, i * 10);
-//        Set<StorageLocation> storageLocations = new HashSet<>();
-//        walls.add(new Wall(i * 20, i * 20));
-//        walls.add(new Wall(i * 40, i * 20));
-//        walls.add(new Wall(i * 10, i * 20));
-//        boxes.add(new Box(i * 30, i * 30));
-//        storageLocations.add(new StorageLocation(i * 20, i * 10));
-//        return new GameObjects(walls, boxes, storageLocations, player);

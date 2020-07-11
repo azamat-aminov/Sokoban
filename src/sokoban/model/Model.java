@@ -80,13 +80,6 @@ public class Model {
         }
         return false;
     }
-    //public boolean checkWallCollision(CollisionObject gameObject, Direction direction) {
-    //        for (Wall w : gameObjects.getWalls()) {
-    //            return gameObject.isCollision(w, direction);
-    //        }
-    //        return false;
-    //    }
-
     public boolean checkBoxCollisionAndMoveIfAvailable(Direction direction) {
         CollisionObject player = gameObjects.getPlayer();
         //15.2.1. Return true if the player can't move in the specified direction
